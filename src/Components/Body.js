@@ -28,8 +28,8 @@ function Body() {
       <div className="body__songs">
         {/* Icone */}
         <div className="body__icons">
-          <PlayCircleFilledIcon className="body__shuffle" />
-          <FavoriteIcon fontSize="large" />
+          <PlayCircleFilledIcon className="body__shuffle body__greenIcon" />
+          <FavoriteIcon fontSize="large" className="body__greenIcon" />
           <MoreHorizIcon />
         </div>
 

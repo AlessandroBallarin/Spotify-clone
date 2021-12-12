@@ -33,7 +33,7 @@ function App() {
       });
 
       //Inserisco la playlist corrente nel datalayer
-      spotify.getPlaylist(`6CnJEb05V6nrTXYCx4Ijs3`).then((response) =>
+      spotify.getPlaylist(`5B46dEOFzUu8z3uPC9lBLt`).then((response) =>
         dispatch({
           type: "SET_DISCOVER_WEEKLY",
           discover_weekly: response,
